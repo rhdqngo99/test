@@ -1,0 +1,22 @@
+첫 환경 설정
+git config --global user.name "rhdqngo99"
+git config --global user.email "rhdqngo99@naver.com"
+
+echo "# java_250226" >> README.md
+git init			=>깃 폴더 초기화
+git add README.md	=>스테이지에 추가 add . 
+git commit -m "first commit" => 저장(메시지 추가)
+git branch -M main	=> 브랜치 변경
+git remote add origin https://github.com/rhdqngo99/java_250226.git => 내 원격위치
+git push -u origin main	=> 원격에 올리기
+
+2번째부터 다시 올리는법
+giti add.
+giti commit -m "first commit"
+giti push orign main
+
+-- 집에서 받을때.(처음)
+giti clone <url>
+
+-- 집에서 두번째 부터 받을 경우
+git pull origin main
